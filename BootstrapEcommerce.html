@@ -1,0 +1,173 @@
+ <!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>E-Commerce Website</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <style>
+        .home{
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),
+            url('https://plus.unsplash.com/premium_photo-1671469876456-b1bafec2d029?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D');
+            height: 90vh;
+            background-size: cover;
+            background-position: center;
+        }
+        .card img{
+                  height: 200px;
+                  object-fit: cover;
+        }
+        .Footer{
+          font-size: 0.5rem;
+          color: gainsboro;
+        }
+    </style>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">ShopEasy</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item">
+          <a class="nav-link" href="#Home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Products">Products</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#About">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#Contact">Contact</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#"><i class="bi bi-cart"></i></a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<section id="Home" class="home text-center d-flex flex-column justify-content-center align-items-center">
+    <h1 class="fw-bold text-white">Best Online Shopping Experience</h1>
+    <p class="text-white lead">rendy products • Best prices • Fast delivery</p>
+    <a href="#Products" class="btn btn-warning">Shop Now</a>
+</section>
+<section id="Products" class="mt-3">
+    <h2 class="fw-bold text-center">Featured Products</h2>
+    <div class="container mt-3 mb-3 ">
+        <div class="row mt-3 mb-3 align-items-center">
+            <div class="col-3">
+                <div class="card text-center">
+                    <img src="https://assets0.mirraw.com/images/13166065/Guide_Line_-_Saree_long_webp.webp?1742901580" class="card-img-top" alt="not-found"/>
+                    <div class="card-body">
+                        <h2 class="card-title">Kurthi</h2>
+                        <p class="card-text">Tranditional Wear Kurti's For Women.</p>
+                        <p>Rs.1200/-</p>
+                        <a href="Payment" class="btn btn-dark">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center">
+                    <img src="https://plus.unsplash.com/premium_photo-1663088624029-5886b4fe8960?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" class="card-img-top" alt="not-found"/>
+                    <div class="card-body">
+                        <h2 class="card-title">Men's Wear</h2>
+                        <p class="card-text">Party Wear For Men.</p>
+                        <p>Rs.2200/-</p>
+                        <a href="Payment" class="btn btn-dark">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center">
+                    <img src="https://theancestrystore.in/storage/ecommerce/product/featured/large/ANCESTRY%2027-11-2514957-Mms5oG2ap2f2KCC26Z5uuI1i1E1r31.jpeg" class="card-img-top" alt="not-found"/>
+                    <div class="card-body">
+                        <h2 class="card-title">Kurtha's </h2>
+                        <p class="card-text">Daily Wear Kurta's For Women's</p>
+                        <p>Rs.1420/-</p>
+                        <a href="Payment" class="btn btn-dark">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col-3">
+                <div class="card text-center">
+                    <img src="https://images.unsplash.com/photo-1725147874578-fc76e0d865e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGtpZHMlMjB3ZWFyfGVufDB8fDB8fHww" class="card-img-top" alt="not-found"/>
+                    <div class="card-body">
+                        <h2 class="card-title">Kid's Wear</h2>
+                        <p class="card-text">Comfortable Wear for Kid's.</p>
+                        <p>Rs.1990/-</p>
+                        <a href="Payment" class="btn btn-dark">Add To Cart</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section id="About" class="bg-light mt-4 p-5">
+  <div class="container">
+    <div class="row mt-2 pb-3 align-items-center">
+      <div class="col-6">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ49pAxdiznk0eVi26PNYyMeaA4sAa7RDe2Ug&s " alt="not-found" class="img-fluid rounded"/>
+        
+      </div>
+      <div class="col-6">
+        <h2 class="fw-bold">About ShopEasy</h2> 
+        <p>shop easy a modern E-commerce platform built using Bootsgtrap.
+          we provide quality products at affordable prices with fast delivery </p>
+          <a href="#" class="btn btn-outline-dark">Learn More</a>
+      </div>
+    </div>
+  </div>
+</section>
+<section id="Contact" class="mt-5"> 
+  <h2 class="fw-bold mt-3 text-center">Payment Details</h2>
+  <div class="container p-3">
+    <div class="row justify-center-center mt-3">
+      <div class="col-6">
+        <form>
+          <input type="number" placeholder="Enter Your Card Number" class="form-control  mb-3"/>
+          <input type="number" placeholder="Enter Your UPI Number" class="form-control  mb-3"/>
+          <input type="number" placeholder="Enter Holder Name" class="form-control  mb-3"/>
+
+        </form>
+        <a href="#" class="btn btn-dark w-100">Payment Now</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<section id="Payment" class="mt-5"> 
+  <h2 class="fw-bold mt-3 text-center">Payment Details</h2>
+  <div class="container p-3">
+    <div class="row justify-center-center mt-3">
+      <div class="col-6">
+        <form>
+          <input type="number" placeholder="Enter Name" class="form-control  mb-3"/>
+          <input type="number" placeholder="Enter Email" class="form-control  mb-3"/>
+          <input type="number" placeholder="Message" class="form-control  mb-3"/>
+
+        </form>
+        <a href="#Contacts" class="btn btn-dark w-100">Send Message</a>
+      </div>
+    </div>
+
+  </div>
+</section>
+<footer id="Footer" class="bg-dark p-3 text-center mt-5">
+  <h5>&copy 2026 ShopEasy. All Rights Reserved</h5>
+  <i class="bi bi-facebook pe-1"></i>
+  <i class="bi bi-twitter pe-1"></i>
+  <i class="bi bi-instagram pe-1"></i>
+</footer>
+ 
+         
+
+ 
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+  </body>
+</html>
